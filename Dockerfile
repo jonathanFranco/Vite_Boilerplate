@@ -17,4 +17,4 @@ RUN npm run build
 
 EXPOSE 5173
 # ENTRYPOINT ["daemon off;"]
-CMD [ "npm", "preview" ]
+CMD [ "npm", "run", "preview" ]
